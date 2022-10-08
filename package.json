@@ -1,0 +1,23 @@
+{
+  "name": "qr-code-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamdihismail/QR-Code-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamdihismail/QR-Code-challenge/issues"
+  },
+  "homepage": "https://github.com/hamdihismail/QR-Code-challenge#readme",
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

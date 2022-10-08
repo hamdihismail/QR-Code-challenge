@@ -1,0 +1,28 @@
+// Layout
+$mobile-size: 375px;
+$destop-size: 1440px;
+
+// Colors
+$primary-color: hsl(218, 44%, 22%);
+$secondary-color: hsl(220, 15%, 55%);
+$shadow: hsl(212, 45%, 89%);
+$white: hsl(0, 0%, 100%);
+
+// Breakpoints
+@media(max-width: 375px) {
+    body .card {
+        width: 300px;
+        height: 500px;
+
+        h2 {
+            font-size: 1.2rem;
+            margin: 20px 25px;
+        }
+
+        p {
+            font-size: .8rem;
+            letter-spacing: .5px;
+            margin: 0 25px;
+        }
+    }
+}
